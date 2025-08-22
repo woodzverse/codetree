@@ -1,3 +1,3 @@
 let weight = 13;
-let radis = 0.165;
-console.log(`${weight} * ${radis.toFixed(6)} = ${(weight * radis).toFixed(6)}`);
+let ratio = 0.165;
+console.log(`${weight} * ${ratio.toFixed(6)} = ${(weight * ratio).toFixed(6)}`);
