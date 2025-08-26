@@ -2,7 +2,7 @@ const fs = require("fs");
 let N = Number(fs.readFileSync(0).toString().trim());
 
 let result = "";
-for (i = N, i <= 100; i++) {
+for (i = N; i <= 100; i++) {
     if (i >= 90) {
         result += "A" + " ";
     } else if (i >= 80) {
