@@ -1,12 +1,10 @@
-arr = []
-for i in range(10):
-    num = int(input())
-    arr.append(num)
+cnt3, cnt5 = 0, 0
 
-a, b = 0, 0
-for i in arr:
-    if (i % 3 == 0):
-        a += 1
-    if (i % 5 == 0):
-        b += 1
-print(a, b)
+for _ in range(10):
+    a = int(input())
+
+    if a % 3 == 0:
+        cnt3 += 1
+    if a % 5 == 0:
+        cnt5 += 1
+print(cnt3, cnt5)
