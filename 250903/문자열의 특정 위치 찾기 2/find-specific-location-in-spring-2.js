@@ -1,4 +1,4 @@
-fruit = ["apple", "banana", "grape", "blueberry", "orange"];
+let fruit = ["apple", "banana", "grape", "blueberry", "orange"];
 
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim();
